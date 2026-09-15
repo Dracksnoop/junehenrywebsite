@@ -24,12 +24,13 @@
   var page = document.body.getAttribute('data-page') || '';
 
   var primaryNav = [
-    { key: 'about', label: 'About', href: 'about.html' },
+    { key: 'home', label: 'Home', href: 'index.html' },
     { key: 'difference', label: 'Difference', href: 'difference.html' },
-    { key: 'homes', label: 'Homes', href: 'homes.html' },
+    { key: 'homes', label: 'Stay', href: 'homes.html' },
     { key: 'beyond', label: 'Experience', href: 'beyond.html' },
     { key: 'journal', label: 'Journal', href: 'journal.html' },
-    { key: 'faqs', label: 'FAQs', href: 'faqs.html' }
+    { key: 'faqs', label: 'FAQs', href: 'faqs.html' },
+    { key: 'about', label: 'About', href: 'about.html' }
   ];
 
   var menuNav = [

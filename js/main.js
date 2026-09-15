@@ -475,3 +475,63 @@
   var value = decodeURIComponent(match[1]);
   Array.prototype.forEach.call(select.options, function (o) { if (o.value === value) select.value = value; });
 })();
+
+/* ---------- Ribbon: drifts on its own, speeds up with scroll and reverses when scrolling up ---------- */
+(function () {
+  'use strict';
+  var tracks = Array.prototype.slice.call(document.querySelectorAll('[data-ribbon]'));
+  if (!tracks.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  function clamp(v, min, max) { return Math.min(max, Math.max(min, v)); }
+
+  tracks.forEach(function (track) {
+    var group = track.querySelector('.ribbon-group');
+    var holder = track.parentElement;
+    if (!group || !holder) return;
+    var width = 0, base = 0, x = 0, speed = 0, raf = 0, last = 0, lastY = 0, hovering = false;
+
+    function measure() {
+      width = group.getBoundingClientRect().width;
+      base = window.innerWidth < 700 ? 30 : 48; // idle drift, px per second
+    }
+    function frame(now) {
+      var dt = Math.min((now - last) / 1000, 0.05);
+      last = now;
+      var y = window.pageYOffset;
+      var scrollSpeed = dt > 0 ? (y - lastY) / dt : 0;
+      lastY = y;
+      var target = base * (hovering ? 0.25 : 1) + clamp(scrollSpeed * 0.4, -1200, 1200);
+      speed += (target - speed) * Math.min(dt * 5, 1);
+      x -= speed * dt;
+      if (width > 0) {
+        while (x <= -width) x += width;
+        while (x > 0) x -= width;
+      }
+      track.style.transform = 'translate3d(' + x.toFixed(2) + 'px,0,0)';
+      track.style.setProperty('--skew', clamp((speed - base) * -0.008, -8, 8).toFixed(2) + 'deg');
+      raf = requestAnimationFrame(frame);
+    }
+    function start() {
+      if (raf) return;
+      last = performance.now();
+      lastY = window.pageYOffset;
+      raf = requestAnimationFrame(frame);
+    }
+    function stop() {
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+    }
+
+    measure();
+    window.addEventListener('resize', measure);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+    holder.addEventListener('mouseenter', function () { hovering = true; });
+    holder.addEventListener('mouseleave', function () { hovering = false; });
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) start(); else stop();
+      }).observe(holder);
+    } else {
+      start();
+    }
+  });
+})();
