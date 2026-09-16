@@ -290,3 +290,23 @@ fieldset.field legend { padding: 0; }
 .map-open svg { width: 15px; height: 15px; transition: transform 0.5s var(--ease); }
 .map-link:hover .map-open svg { transform: translateX(5px); }
 .contact-card strong, .help-card a, .footer-col a { font-variant-numeric: lining-nums; }
+
+/* ---------- Difference page: what it isn't, what it is ---------- */
+.negation { display: grid; grid-template-columns: 0.92fr 1.08fr; gap: clamp(34px, 6vw, 90px); align-items: center; }
+.negation-list { display: grid; justify-items: start; gap: clamp(10px, 1.4vw, 18px); margin-top: 26px; }
+.negation-list li {
+  position: relative; font-family: var(--f-display); font-size: clamp(23px, 2.7vw, 40px); line-height: 1.2; color: var(--muted);
+}
+.negation-list li::after {
+  content: ""; position: absolute; left: -4px; right: -4px; top: 54%; height: 2px; background: var(--burgundy);
+  transform: scaleX(0); transform-origin: left; transition: transform 1s var(--ease); transition-delay: calc(var(--d, 0s) + 0.45s);
+}
+.negation-list li.is-visible::after { transform: scaleX(1); }
+.negation-answer { padding-left: clamp(20px, 2.6vw, 40px); border-left: 2px solid var(--gold); }
+.negation-answer p { margin: 20px 0 0; font-family: var(--f-display); font-size: clamp(28px, 3.5vw, 52px); line-height: 1.25; color: var(--navy); }
+.negation-answer .accent { color: var(--burgundy); font-style: italic; }
+.no-js .negation-list li::after { transform: scaleX(1); }
+@media (max-width: 900px) {
+  .negation { grid-template-columns: 1fr; gap: 34px; }
+  .negation-answer { padding-left: 18px; }
+}
