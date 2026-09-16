@@ -70,7 +70,7 @@
 
 /* ---------- Quote band ---------- */
 .quote-band { position: relative; isolation: isolate; overflow: hidden; margin: 0 var(--shell); padding: clamp(90px, 11vw, 150px) 24px; border-radius: var(--radius-xl); text-align: center; color: rgba(247, 243, 236, 0.8); background: var(--navy); }
-.quote-band.has-image::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(19, 30, 54, 0.82), rgba(19, 30, 54, 0.9)); }
+.quote-band.has-image::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(8, 45, 60, 0.82), rgba(8, 45, 60, 0.9)); }
 .quote-band .jamaica-bg { inset: -15% 0; }
 .quote-band blockquote { max-width: 1020px; margin: 26px auto 0; font-family: var(--f-display); font-style: italic; font-size: clamp(30px, 4.2vw, 60px); line-height: 1.25; color: #fff; }
 .quote-band blockquote .script { font-style: normal; font-size: 1.2em; line-height: 0.8; }
@@ -111,7 +111,7 @@
 .collection-nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .collection-link { position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; min-height: 300px; padding: 28px; border-radius: var(--radius-lg); color: #fff; background: var(--navy); }
 .collection-link img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; transition: transform 1.6s var(--ease); }
-.collection-link::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(19, 30, 54, 0.05) 20%, rgba(19, 30, 54, 0.85)); }
+.collection-link::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(8, 45, 60, 0.05) 20%, rgba(8, 45, 60, 0.85)); }
 .collection-link:hover img { transform: scale(1.08); }
 .collection-link .count { font-size: 11.5px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold-soft); }
 .collection-link h3 { color: #fff; font-size: clamp(24px, 2.2vw, 32px); margin: 8px 0 12px; }
@@ -140,7 +140,7 @@
 .moments { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 40px; }
 .moment { position: relative; overflow: hidden; aspect-ratio: 3 / 4; border-radius: var(--radius-md); color: #fff; background: var(--navy); isolation: isolate; }
 .moment img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; transition: transform 1.6s var(--ease); }
-.moment::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, transparent 45%, rgba(19, 30, 54, 0.85)); }
+.moment::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, transparent 45%, rgba(8, 45, 60, 0.85)); }
 .moment:hover img { transform: scale(1.08); }
 .moment span { position: absolute; left: 18px; right: 18px; bottom: 18px; font-family: var(--f-display); font-size: 20px; line-height: 1.25; }
 
@@ -191,7 +191,7 @@
 .faq-nav-title { font-size: 12px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
 .faq-nav a { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 12px 16px; border-radius: 12px; font-size: 15px; color: var(--navy); transition: background 0.4s var(--ease), color 0.4s; }
 .faq-nav a small { font-size: 12px; color: var(--muted); transition: color 0.4s; }
-.faq-nav a:hover { background: rgba(27, 42, 74, 0.06); }
+.faq-nav a:hover { background: rgba(11, 62, 84, 0.06); }
 .faq-nav a.is-current { background: var(--navy); color: #fff; }
 .faq-nav a.is-current small { color: var(--gold-soft); }
 .search-field { position: relative; margin-bottom: 50px; }
@@ -226,7 +226,7 @@ a.contact-card:hover .icon-ring { background: var(--gold); box-shadow: none; }
   width: 100%; padding: 15px 18px; border-radius: 14px; border: 1px solid var(--line); background: var(--cream);
   font: inherit; font-size: 16px; color: var(--navy); transition: border-color 0.3s, box-shadow 0.3s, background 0.3s; appearance: none; -webkit-appearance: none;
 }
-.field select { padding-right: 44px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231B2A4A' stroke-width='1.8'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; background-size: 16px; }
+.field select { padding-right: 44px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230B3E54' stroke-width='1.8'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; background-size: 16px; }
 .field textarea { min-height: 140px; resize: vertical; }
 .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--gold); background-color: #fff; box-shadow: 0 0 0 5px rgba(201, 168, 107, 0.18); }
 .field-error { display: none; margin-top: 7px; font-size: 13px; color: var(--burgundy); }
@@ -281,7 +281,7 @@ fieldset.field legend { padding: 0; }
 .faq-empty a { color: var(--burgundy); border-bottom: 1px solid rgba(122, 46, 46, 0.3); }
 .map-link { position: relative; display: block; isolation: isolate; color: #fff; }
 .map-link img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; transition: transform 1.6s var(--ease); }
-.map-link::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(19, 30, 54, 0.1) 20%, rgba(19, 30, 54, 0.85)); }
+.map-link::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(8, 45, 60, 0.1) 20%, rgba(8, 45, 60, 0.85)); }
 .map-link:hover img { transform: scale(1.06); }
 .map-label { position: absolute; left: 26px; right: 26px; bottom: 24px; display: grid; gap: 4px; }
 .map-label small { font-size: 11.5px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold-soft); }
