@@ -1,34 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About June Henry Homes | Elevated Seasonal Living in Jamaica</title>
-  <meta name="description" content="Discover the vision behind June Henry Homes and a warmer, more effortless approach to seasonal living, hospitality, wellness, and connection.">
-  <meta name="theme-color" content="#064F67">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="June Henry Homes">
-  <meta property="og:title" content="About June Henry Homes | Elevated Seasonal Living in Jamaica">
-  <meta property="og:description" content="Discover the vision behind June Henry Homes and a warmer, more effortless approach to seasonal living, hospitality, wellness, and connection.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23064F67'/%3E%3Ctext x='50%25' y='60%25' text-anchor='middle' font-family='Georgia,serif' font-size='28' fill='%23074240'%3EJH%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/sections.css">
-  <link rel="stylesheet" href="css/pages.css">
-</head>
-<body data-page="about">
-  <div id="site-header"></div>
+<?php
+/**
+ * Template Name: JHH About
+ */
+get_header(); ?>
 
-  <main id="main">
+<main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
         <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=2200&q=80" alt="Pool terrace framed by palms overlooking the sea" fetchpriority="high">
       </div>
       <div class="page-hero-content">
-        <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">✦</span><span aria-current="page">About</span></nav>
+        <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">About</span></nav>
         <h1 class="hero-anim" style="--d:.15s">About June Henry <span class="script">Homes</span></h1>
         <p class="lead hero-anim" style="--d:.35s">A warmer, more effortless approach to seasonal living, hospitality, wellness, and connection.</p>
       </div>
@@ -52,8 +34,8 @@
           <h2 class="h2" data-split>Elevated winter living where luxury meets the comfort of <span class="script">home</span>!</h2>
           <p class="lead reveal">June Henry Homes is designed for active adults who desire extended stays of one month or longer, the ease of elevated hospitality, wellness, lifestyle services and light support during the winter season in a warm climate environment that promotes vitality, rest and connection. Whether you’re seeking a seasonal retreat, a respite from home maintenance, or simply a more effortless way to enjoy the winter months, June Henry Homes provides exceptional hospitality, comfort, and care allowing you to focus on what matters most. Our homes are fully staffed and offers the comfort of home paired with the personalized service of a luxury retreat.</p>
           <div class="btn-row reveal">
-            <a class="btn" href="homes.html">Explore the Homes</a>
-            <a class="btn btn-outline" href="contact.html">Plan Your Stay</a>
+            <a class="btn" href="<?php echo esc_url( home_url( '/the-homes/' ) ); ?>">Explore the Homes</a>
+            <a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Plan Your Stay</a>
           </div>
         </div>
       </div>
@@ -113,7 +95,7 @@
             <li>A secure, private environment where you can relax with complete peace of mind.</li>
           </ul>
           <div class="btn-row reveal">
-            <a class="link-arrow" href="beyond.html">Discover life beyond the stay <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+            <a class="link-arrow" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>">Discover life beyond the stay <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
           </div>
         </div>
       </div>
@@ -167,7 +149,7 @@
       <span class="eyebrow center light reveal">Welcome to June Henry Homes</span>
       <blockquote class="reveal">A place where comfort meets connection, luxury feels personal, and every guest is welcomed like <span class="script">family</span>.</blockquote>
       <div class="btn-row center reveal">
-        <a class="btn btn-gold" href="heart.html">Meet June Henry</a>
+        <a class="btn btn-gold" href="<?php echo esc_url( home_url( '/meet-june/' ) ); ?>">Meet June Henry</a>
       </div>
     </section>
 
@@ -179,19 +161,19 @@
           <h2 class="h2" data-split>Discover more</h2>
         </div>
         <div class="collection-nav">
-          <a class="collection-link reveal" href="heart.html">
-            <img src="images/june-henry.jpg" alt="" loading="lazy">
+          <a class="collection-link reveal" href="<?php echo esc_url( home_url( '/meet-june/' ) ); ?>">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/june-henry.jpg' ); ?>" alt="" loading="lazy">
             <span class="count">The founder</span>
             <h3>Meet the Heart Behind June Henry Homes</h3>
             <span class="link-arrow">Read June’s story <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
-          <a class="collection-link reveal" style="--d:.1s" href="beyond.html">
+          <a class="collection-link reveal" style="--d:.1s" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>">
             <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
             <span class="count">Life here</span>
             <h3>Beyond the Stay</h3>
             <span class="link-arrow">See the experience <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
-          <a class="collection-link reveal" style="--d:.2s" href="homes.html">
+          <a class="collection-link reveal" style="--d:.2s" href="<?php echo esc_url( home_url( '/the-homes/' ) ); ?>">
             <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
             <span class="count">The homes</span>
             <h3>Explore the Collections</h3>
@@ -202,8 +184,4 @@
     </section>
   </main>
 
-  <div id="site-footer"></div>
-  <script src="js/components.js"></script>
-  <script src="js/main.js"></script>
-</body>
-</html>
+<?php get_footer();

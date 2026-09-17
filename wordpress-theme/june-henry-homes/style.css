@@ -1,0 +1,15 @@
+/*
+Theme Name: June Henry Homes
+Theme URI: https://junehenryhomes.com/
+Author: June Henry Homes
+Description: Custom theme for June Henry Homes, luxury extended-stay living in St. Ann, Jamaica.
+Version: 1.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+Text Domain: june-henry-homes
+*/
+
+/* The real styles live in css/base.css, css/sections.css and css/pages.css,
+   loaded from functions.php. This file only identifies the theme. */

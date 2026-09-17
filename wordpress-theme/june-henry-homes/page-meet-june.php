@@ -1,34 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Meet June Henry | The Heart Behind June Henry Homes</title>
-  <meta name="description" content="Meet June Henry, founder of June Henry Homes, and discover the personal vision behind creating warm, welcoming, and meaningful extended-stay living.">
-  <meta name="theme-color" content="#064F67">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="June Henry Homes">
-  <meta property="og:title" content="Meet June Henry | The Heart Behind June Henry Homes">
-  <meta property="og:description" content="Meet June Henry, founder of June Henry Homes, and discover the personal vision behind creating warm, welcoming, and meaningful extended-stay living.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23064F67'/%3E%3Ctext x='50%25' y='60%25' text-anchor='middle' font-family='Georgia,serif' font-size='28' fill='%23074240'%3EJH%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/sections.css">
-  <link rel="stylesheet" href="css/pages.css">
-</head>
-<body data-page="heart">
-  <div id="site-header"></div>
+<?php
+/**
+ * Template Name: JHH Meet June
+ */
+get_header(); ?>
 
-  <main id="main">
+<main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
         <img src="https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=2200&q=80" alt="Lush tropical greenery" fetchpriority="high">
       </div>
       <div class="page-hero-content">
-        <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">✦</span><a href="about.html">About</a><span aria-hidden="true">✦</span><span aria-current="page">Meet June</span></nav>
+        <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a><span aria-hidden="true">✦</span><span aria-current="page">Meet June</span></nav>
         <h1 class="hero-anim" style="--d:.15s">Meet June <span class="script">Henry</span></h1>
         <p class="lead hero-anim" style="--d:.35s">The heart behind June Henry Homes, and the personal vision behind warm, welcoming, meaningful extended-stay living.</p>
       </div>
@@ -39,8 +21,8 @@
       <div class="container split">
         <div class="split-media">
           <div class="media-stack">
-            <div class="media media-main reveal-mask"><img src="images/june-henry-tall.jpg" alt="June Henry, founder of June Henry Homes" loading="lazy"></div>
-            <div class="media media-small reveal-mask" style="--d:.3s"><img src="images/june-henry-golf.jpg" alt="June Henry playing golf in Jamaica" loading="lazy"></div>
+            <div class="media media-main reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/june-henry-tall.jpg' ); ?>" alt="June Henry, founder of June Henry Homes" loading="lazy"></div>
+            <div class="media media-small reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/june-henry-golf.jpg' ); ?>" alt="June Henry playing golf in Jamaica" loading="lazy"></div>
             <div class="rotating-badge" aria-hidden="true">
               <svg viewBox="0 0 136 136"><defs><path id="badgeCircle" d="M68,68 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"/></defs><text><textPath href="#badgeCircle" textLength="312" lengthAdjust="spacing">Founder · June Henry Homes ·</textPath></text></svg>
               <span class="badge-core">JH</span>
@@ -128,15 +110,11 @@
       <span class="eyebrow center light reveal">More than hospitality</span>
       <blockquote class="reveal">A place where people can exhale, feel at home, and rediscover the simple joy of <span class="script">everyday living</span>.</blockquote>
       <div class="btn-row center reveal">
-        <a class="btn btn-gold" href="contact.html">Plan Your Extended Stay</a>
-        <a class="btn btn-ghost-light" href="about.html">About June Henry Homes</a>
+        <a class="btn btn-gold" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Plan Your Extended Stay</a>
+        <a class="btn btn-ghost-light" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About June Henry Homes</a>
       </div>
     </section>
     <div class="section-tight" aria-hidden="true"></div>
   </main>
 
-  <div id="site-footer"></div>
-  <script src="js/components.js"></script>
-  <script src="js/main.js"></script>
-</body>
-</html>
+<?php get_footer();

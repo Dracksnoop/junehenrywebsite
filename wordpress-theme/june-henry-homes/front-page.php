@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>June Henry Homes | Staffed Luxury Winter Homes for Seniors in St. Ann, Jamaica</title>
-  <meta name="description" content="Fully-staffed, small-group winter homes for active seniors and diaspora families. Chef, butler, housekeeper &amp; concierge included. 6–8 guests only. Book your season in St. Ann, Jamaica.">
-  <meta name="theme-color" content="#064F67">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="June Henry Homes">
-  <meta property="og:title" content="June Henry Homes | Staffed Luxury Winter Homes for Seniors in St. Ann, Jamaica">
-  <meta property="og:description" content="Fully-staffed, small-group winter homes for active seniors and diaspora families. Chef, butler, housekeeper &amp; concierge included. 6–8 guests only.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23064F67'/%3E%3Ctext x='50%25' y='60%25' text-anchor='middle' font-family='Georgia,serif' font-size='28' fill='%23074240'%3EJH%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/sections.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "June Henry Homes",
-    "description": "Fully-staffed, small-group luxury winter homes in St. Ann, Jamaica for stays of one month or longer.",
-    "url": "https://junehenryhomes.com/",
-    "telephone": "+1-718-541-0372",
-    "email": "info@junehenryhomes.com",
-    "address": { "@type": "PostalAddress", "addressRegion": "St. Ann", "addressCountry": "JM" }
-  }
-  </script>
-</head>
-<body data-page="home">
+<?php get_header(); ?>
 
-  <div class="preloader" aria-hidden="true">
-    <div>
-      <div class="preloader-mark">June Henry</div>
-      <div class="preloader-line"></div>
-      <div class="preloader-text">Homes · St. Ann, Jamaica</div>
-    </div>
-  </div>
-
-  <div id="site-header"></div>
-
-  <main id="main">
+<main id="main">
 
     <!-- ============ 1. HERO ============ -->
     <section class="hero" aria-label="Welcome to June Henry Homes">
@@ -55,12 +12,12 @@
         <div class="hero-script hero-anim" style="--d:.35s" aria-hidden="true">June Henry Homes</div>
         <h1 class="hero-anim" style="--d:.85s">The Ease of <em>Winter Living.</em></h1>
         <p class="hero-sub hero-anim" style="--d:1.05s">More than a place to stay. A place to truly live.</p>
-        <div class="hero-cta hero-anim" style="--d:1.25s"><a class="btn btn-gold" href="contact.html">Inquire</a></div>
+        <div class="hero-cta hero-anim" style="--d:1.25s"><a class="btn btn-gold" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Inquire</a></div>
       </div>
       <div class="hero-meta right" aria-hidden="true">St. Ann · Jamaica</div>
       <div class="hero-notch">
-        <a class="btn" href="about.html">Discover June Henry Homes</a>
-        <a class="btn btn-outline" href="contact.html">Plan Your Extended Stay</a>
+        <a class="btn" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Discover June Henry Homes</a>
+        <a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Plan Your Extended Stay</a>
       </div>
     </section>
 
@@ -135,10 +92,10 @@
                 <p>My inspiration is simple and personal: the kind of home I would want for my own family.</p>
                 <p class="signature">June Henry <small>Founder, June Henry Homes</small></p>
                 <div class="btn-row" style="margin-top:24px">
-                  <a class="btn btn-ghost-light btn-sm" href="heart.html">Meet June</a>
+                  <a class="btn btn-ghost-light btn-sm" href="<?php echo esc_url( home_url( '/meet-june/' ) ); ?>">Meet June</a>
                 </div>
               </div>
-              <div class="media"><img src="images/june-henry.jpg" alt="June Henry, founder of June Henry Homes" loading="lazy"></div>
+              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/june-henry.jpg' ); ?>" alt="June Henry, founder of June Henry Homes" loading="lazy"></div>
             </div>
           </div>
 
@@ -171,7 +128,7 @@
         </div>
 
         <div class="about-cta reveal">
-          <a class="btn" href="about.html">About June Henry Homes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+          <a class="btn" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About June Henry Homes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
         </div>
       </div>
     </section>
@@ -248,7 +205,7 @@
         <div class="statement">
           <span class="eyebrow center reveal">The difference is simple</span>
           <p class="scrub-text" data-scrub>JHH doesn’t just give you somewhere to stay in Jamaica. It gives you a place to truly live well.</p>
-          <a class="btn btn-outline reveal" href="about.html#difference">Explore the Difference</a>
+          <a class="btn btn-outline reveal" href="<?php echo esc_url( home_url( '/about/' ) ); ?>#difference">Explore the Difference</a>
         </div>
       </div>
     </section>
@@ -267,7 +224,7 @@
           <p class="reveal">Imagine breakfast outdoors, afternoons by the water, fresh Caribbean meals, meaningful conversations, and evenings watching the sunset.</p>
           <p class="pull reveal">This isn’t escaping life.<br>It’s choosing to live it differently.</p>
           <div class="reveal">
-            <a class="btn btn-gold" href="st-ann.html">Discover St. Ann <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-gold" href="<?php echo esc_url( home_url( '/st-ann/' ) ); ?>">Discover St. Ann <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
           </div>
         </div>
 
@@ -307,7 +264,7 @@
               <p>For those who want the ocean to be part of everyday life.</p>
               <p>Wake to the sound of the water, enjoy private beach access, beautiful views, curated excursions, exceptional dining, and personalized concierge service.</p>
               <p class="ideal"><strong>Ideal for:</strong> guests who want a relaxed coastal lifestyle with the ocean at their doorstep.</p>
-              <a class="btn" href="homes.html#beachfront">Explore Beachfront <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+              <a class="btn" href="<?php echo esc_url( home_url( '/the-homes/' ) ); ?>#beachfront">Explore Beachfront <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
             </div>
           </article>
 
@@ -323,7 +280,7 @@
               <p>Settle into lush surroundings and a more intimate rhythm of island living.</p>
               <p>Enjoy elegant spaces, sea views, shared experiences, thoughtful hospitality, and the freedom to spend your days exactly as you wish.</p>
               <p class="ideal"><strong>Ideal for:</strong> guests looking for peaceful, connected living surrounded by nature.</p>
-              <a class="btn btn-gold" href="homes.html#veranda">Explore Veranda <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-gold" href="<?php echo esc_url( home_url( '/the-homes/' ) ); ?>#veranda">Explore Veranda <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
             </div>
           </article>
 
@@ -339,7 +296,7 @@
               <p>For guests who value a higher level of privacy, personalization, and attentive service.</p>
               <p>Private suites, personal butler service, wellness coordination, curated experiences, and concierge support come together to create an exceptionally tailored stay.</p>
               <p class="ideal"><strong>Ideal for:</strong> guests seeking our most personalized experience.</p>
-              <a class="btn btn-light" href="homes.html#founder">Explore Founder Collection <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-light" href="<?php echo esc_url( home_url( '/the-homes/' ) ); ?>#founder">Explore Founder Collection <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
             </div>
           </article>
         </div>
@@ -364,7 +321,7 @@
               <div class="beyond-reveal"><div><p>Fresh, chef-prepared meals made daily with nourishing ingredients, Jamaican flavours, and plenty of reasons to gather around the table.</p></div></div>
               <span class="beyond-tag">Breakfast. Lunch. Dinner. Snacks. Always made with care.</span>
             </div>
-            <a class="stretched" href="beyond.html#food"><span class="visually-hidden">More about dining at June Henry Homes</span></a>
+            <a class="stretched" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>#food"><span class="visually-hidden">More about dining at June Henry Homes</span></a>
           </article>
 
           <article class="beyond-card reveal" style="--d:.12s">
@@ -375,7 +332,7 @@
               <div class="beyond-reveal"><div><p>Move, rest, connect, and recharge. From morning walks and swimming to nourishing meals and quiet moments, wellness is naturally woven into everyday life.</p></div></div>
               <span class="beyond-tag">Feel good. Live well.</span>
             </div>
-            <a class="stretched" href="beyond.html#wellness"><span class="visually-hidden">More about wellness at June Henry Homes</span></a>
+            <a class="stretched" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>#wellness"><span class="visually-hidden">More about wellness at June Henry Homes</span></a>
           </article>
 
           <article class="beyond-card reveal" style="--d:.24s">
@@ -386,12 +343,12 @@
               <div class="beyond-reveal"><div><p>Enjoy experiences that bring people together—from bonfire conversations and Sip &amp; Paint to catamaran escapes and discovering Jamaica.</p></div></div>
               <span class="beyond-tag">No rigid itineraries. Just experiences worth having.</span>
             </div>
-            <a class="stretched" href="beyond.html#moments"><span class="visually-hidden">More about experiences at June Henry Homes</span></a>
+            <a class="stretched" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>#moments"><span class="visually-hidden">More about experiences at June Henry Homes</span></a>
           </article>
         </div>
 
         <div class="about-cta reveal">
-          <a class="btn btn-outline" href="beyond.html">Explore the Experience</a>
+          <a class="btn btn-outline" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>">Explore the Experience</a>
         </div>
       </div>
     </section>
@@ -455,7 +412,7 @@
             <a href="mailto:info@junehenryhomes.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>info@junehenryhomes.com</a>
           </div>
           <div class="reveal" style="margin-top:30px">
-            <a class="link-arrow" href="faqs.html">View all FAQs <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+            <a class="link-arrow" href="<?php echo esc_url( home_url( '/faqs/' ) ); ?>">View all FAQs <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
           </div>
         </aside>
 
@@ -573,7 +530,7 @@
               </div>
               <div class="faq-item">
                 <h3><button class="faq-q" type="button"><span class="q-num">20</span><span class="q-text">How do I inquire or book a stay?</span><span class="faq-icon" aria-hidden="true"></span></button></h3>
-                <div class="faq-a"><div class="faq-a-inner"><p>Call <a href="tel:+17185410372">718-541-0372</a>, email <a href="mailto:info@junehenryhomes.com">info@junehenryhomes.com</a>, or <a href="contact.html">submit an inquiry through the website</a>.</p></div></div>
+                <div class="faq-a"><div class="faq-a-inner"><p>Call <a href="tel:+17185410372">718-541-0372</a>, email <a href="mailto:info@junehenryhomes.com">info@junehenryhomes.com</a>, or <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">submit an inquiry through the website</a>.</p></div></div>
               </div>
             </div>
           </div>
@@ -583,9 +540,4 @@
 
   </main>
 
-  <div id="site-footer"></div>
-
-  <script src="js/components.js"></script>
-  <script src="js/main.js"></script>
-</body>
-</html>
+<?php get_footer();
