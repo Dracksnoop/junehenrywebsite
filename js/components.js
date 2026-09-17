@@ -25,10 +25,9 @@
 
   var primaryNav = [
     { key: 'home', label: 'Home', href: 'index.html' },
-    { key: 'difference', label: 'Difference', href: 'difference.html' },
     { key: 'homes', label: 'Stay', href: 'homes.html' },
     { key: 'beyond', label: 'Experience', href: 'beyond.html' },
-    { key: 'journal', label: 'Journal', href: 'journal.html' },
+    { key: 'journal', label: 'JHH Journal', href: 'journal.html' },
     { key: 'faqs', label: 'FAQs', href: 'faqs.html' },
     { key: 'about', label: 'About', href: 'about.html' }
   ];
@@ -37,11 +36,10 @@
     { key: 'home', label: 'Home', href: 'index.html' },
     { key: 'about', label: 'About June Henry Homes', href: 'about.html' },
     { key: 'heart', label: 'Meet June', href: 'heart.html' },
-    { key: 'difference', label: 'The June Henry Difference', href: 'difference.html' },
     { key: 'homes', label: 'The Homes', href: 'homes.html' },
     { key: 'beyond', label: 'Beyond the Stay', href: 'beyond.html' },
     { key: 'st-ann', label: 'St. Ann', href: 'st-ann.html' },
-    { key: 'journal', label: 'Journal', href: 'journal.html' },
+    { key: 'journal', label: 'JHH Journal', href: 'journal.html' },
     { key: 'faqs', label: 'FAQs', href: 'faqs.html' },
     { key: 'contact', label: 'Contact', href: 'contact.html' }
   ];
@@ -54,7 +52,7 @@
     { label: 'Wellness', href: 'beyond.html#wellness' },
     { label: 'Food', href: 'beyond.html#food' },
     { label: 'St. Ann', href: 'st-ann.html' },
-    { label: 'Journal', href: 'journal.html' },
+    { label: 'JHH Journal', href: 'journal.html' },
     { label: 'FAQs', href: 'faqs.html' },
     { label: 'Contact', href: 'contact.html' }
   ];
@@ -75,6 +73,13 @@
   var headerHTML =
     '<a class="skip-link" href="#main">Skip to content</a>' +
     '<div class="scroll-progress" aria-hidden="true"></div>' +
+    '<div class="top-bar">' +
+      '<span class="bar-star" aria-hidden="true">&#10022;</span>' +
+      '<span>Only 6&#8211;8 guests per home</span>' +
+      '<span class="bar-star bar-place" aria-hidden="true">&#10022;</span>' +
+      '<span class="bar-place">St. Ann, Jamaica</span>' +
+      '<span class="bar-star" aria-hidden="true">&#10022;</span>' +
+    '</div>' +
     '<header class="site-header" id="siteHeader">' +
       '<div class="header-inner">' +
         '<nav class="nav-pills" aria-label="Primary">' + navLinks(primaryNav, 'nav-pill') + '</nav>' +
