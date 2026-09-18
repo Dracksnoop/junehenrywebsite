@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">St. Ann</span></nav>
@@ -27,7 +27,7 @@ get_header(); ?>
           <p class="pull reveal" style="color:var(--navy)">This isn’t escaping life.<br>It’s choosing to live it differently.</p>
         </div>
         <div class="split-media">
-          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
         </div>
       </div>
     </section>
@@ -78,7 +78,7 @@ get_header(); ?>
             </div>
           </article>
           <article class="place-card reveal" style="--d:.1s">
-            <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy"></div>
+            <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy"></div>
             <div class="place-card-body">
               <span class="count">Coast &amp; town</span>
               <h3>Ocho Rios</h3>
@@ -86,7 +86,7 @@ get_header(); ?>
             </div>
           </article>
           <article class="place-card reveal" style="--d:.2s">
-            <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
+            <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/pool-terrace.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
             <div class="place-card-body">
               <span class="count">History &amp; music</span>
               <h3>Nine Mile</h3>
@@ -126,7 +126,7 @@ get_header(); ?>
     </section>
 
     <section class="quote-band has-image" aria-label="Come for the warmth">
-      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" loading="lazy"></div>
+      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="" loading="lazy"></div>
       <span class="eyebrow center light reveal">St. Ann, Jamaica</span>
       <blockquote class="reveal">Come for the warmth. Stay for the way of <span class="script">life</span>.</blockquote>
       <div class="btn-row center reveal">

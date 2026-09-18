@@ -7,7 +7,7 @@
         <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail( 'full' );
         } else { ?>
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="">
         <?php } ?>
       </div>
       <div class="page-hero-content">

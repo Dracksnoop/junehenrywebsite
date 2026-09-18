@@ -4,8 +4,12 @@
 
     <!-- ============ 1. HERO ============ -->
     <section class="hero" aria-label="Welcome to June Henry Homes">
-      <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/homes-lawn.jpg' ); ?>" alt="June Henry Homes residences seen from the garden" fetchpriority="high">
+      <div class="hero-media" data-parallax="0.12" data-slides>
+        <img class="is-active" src="<?php echo esc_url( get_template_directory_uri() . '/images/villa-palms.jpg' ); ?>" alt="A June Henry Homes residence framed by palms" fetchpriority="high">
+        <img data-src="<?php echo esc_url( get_template_directory_uri() . '/images/cottage-veranda.jpg' ); ?>" alt="" decoding="async">
+        <img data-src="<?php echo esc_url( get_template_directory_uri() . '/images/pool-terrace.jpg' ); ?>" alt="" decoding="async">
+        <img data-src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="" decoding="async">
+        <img data-src="<?php echo esc_url( get_template_directory_uri() . '/images/living-pool-view.jpg' ); ?>" alt="" decoding="async">
       </div>
       <div class="hero-content">
         <span class="eyebrow center light hero-anim" style="--d:.2s">Extended Luxury Living &amp; Wellness</span>
@@ -35,35 +39,35 @@
       <div class="ribbon-track" data-ribbon>
         <div class="ribbon-group">
           <span class="ribbon-word">Chef-prepared meals</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/kitchen-island.jpg' ); ?>" alt="Kitchen island where the chef prepares meals" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Dedicated butler</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The dining room set for a shared meal" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">Housekeeping &amp; laundry</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/butler-pantry.jpg' ); ?>" alt="The butler’s pantry at June Henry Homes" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Personal concierge</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-twin.jpg' ); ?>" alt="Guest bedroom with beamed ceiling at June Henry Homes" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">6–8 guests per home</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The dining room set for a shared meal" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Stays of one month or longer</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/courtyard-homes.jpg' ); ?>" alt="The courtyard between the June Henry Homes residences" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">St. Ann, Jamaica</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dunns-river-falls.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="The beach and cove beside the residences" loading="lazy" decoding="async"></span>
         </div>
         <div class="ribbon-group">
           <span class="ribbon-word">Chef-prepared meals</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/kitchen-island.jpg' ); ?>" alt="Kitchen island where the chef prepares meals" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Dedicated butler</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The dining room set for a shared meal" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">Housekeeping &amp; laundry</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/butler-pantry.jpg' ); ?>" alt="The butler’s pantry at June Henry Homes" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Personal concierge</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-twin.jpg' ); ?>" alt="Guest bedroom with beamed ceiling at June Henry Homes" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">6–8 guests per home</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The dining room set for a shared meal" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Stays of one month or longer</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/courtyard-homes.jpg' ); ?>" alt="The courtyard between the June Henry Homes residences" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">St. Ann, Jamaica</span>
-          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dunns-river-falls.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="The beach and cove beside the residences" loading="lazy" decoding="async"></span>
         </div>
       </div>
     </div>
@@ -106,7 +110,7 @@
                 <h3>Elevated winter living where luxury meets the comfort of home!</h3>
                 <p>June Henry Homes is designed for active adults who desire extended stays of one month or longer, the ease of elevated hospitality, wellness, lifestyle services and light support during the winter season in a warm climate environment that promotes vitality, rest and connection. Whether you’re seeking a seasonal retreat, a respite from home maintenance, or simply a more effortless way to enjoy the winter months, June Henry Homes provides exceptional hospitality, comfort, and care allowing you to focus on what matters most. Our homes are fully staffed and offers the comfort of home paired with the personalized service of a luxury retreat.</p>
               </div>
-              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-entrance.jpg' ); ?>" alt="Entrance to a June Henry Homes residence" loading="lazy"></div>
+              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-pathway.jpg' ); ?>" alt="Entrance to a June Henry Homes residence" loading="lazy"></div>
             </div>
           </div>
 
@@ -122,7 +126,7 @@
                   <li>A secure, private environment where you can relax with complete peace of mind.</li>
                 </ul>
               </div>
-              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
+              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
             </div>
           </div>
         </div>
@@ -152,7 +156,7 @@
           </article>
 
           <div class="bento-media reveal" style="--d:.08s">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="Bedroom with a sea view at June Henry Homes" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-twin.jpg' ); ?>" alt="Bedroom with a sea view at June Henry Homes" loading="lazy">
             <span class="chip">Private residential living</span>
           </div>
 
@@ -189,7 +193,7 @@
           </article>
 
           <div class="bento-media span-2 reveal">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">
             <span class="chip">Your winter, your way</span>
           </div>
 
@@ -213,7 +217,7 @@
     <!-- ============ 5. WHY JAMAICA ============ -->
     <section class="jamaica" id="why-jamaica" aria-labelledby="jamaica-title">
       <div class="jamaica-bg" data-parallax="0.1">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="" loading="lazy">
       </div>
       <div class="container jamaica-grid">
         <div>
@@ -254,7 +258,7 @@
         <div class="stack">
           <article class="stack-card" style="--i:0">
             <div class="stack-media">
-              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/living-pool-view.jpg' ); ?>" alt="Living room opening onto the pool and the sea" loading="lazy">" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">
               <span class="chip">Collection 01</span>
             </div>
             <div class="stack-body">
@@ -270,7 +274,7 @@
 
           <article class="stack-card is-navy" style="--i:1">
             <div class="stack-media">
-              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/cottage-veranda.jpg' ); ?>" alt="A June Henry Homes cottage with its wraparound veranda" loading="lazy">" alt="Living room opening onto the pool and the sea" loading="lazy">" alt="A June Henry Homes residence with its veranda and lawn" loading="lazy">
               <span class="chip">Collection 02</span>
             </div>
             <div class="stack-body">
@@ -286,7 +290,7 @@
 
           <article class="stack-card is-burgundy" style="--i:2">
             <div class="stack-media">
-              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-twin.jpg' ); ?>" alt="Guest bedroom with beamed ceiling at June Henry Homes" loading="lazy">" alt="A June Henry Homes cottage with its wraparound veranda" loading="lazy">" alt="Open living room inside a June Henry Homes residence" loading="lazy">
               <span class="chip">Collection 03</span>
             </div>
             <div class="stack-body">
@@ -314,7 +318,7 @@
 
         <div class="beyond-grid">
           <article class="beyond-card reveal">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/market-produce.jpg' ); ?>" alt="Fresh produce at a Jamaican market" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/kitchen-island.jpg' ); ?>" alt="Fresh produce at a Jamaican market" loading="lazy">
             <div class="beyond-body">
               <span class="num">01 · Food</span>
               <h3>Taste the Good Life</h3>
@@ -325,7 +329,7 @@
           </article>
 
           <article class="beyond-card reveal" style="--d:.12s">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/pool-terrace.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy">
             <div class="beyond-body">
               <span class="num">02 · Wellness</span>
               <h3>Wellness, Your Way</h3>
@@ -336,7 +340,7 @@
           </article>
 
           <article class="beyond-card reveal" style="--d:.24s">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="Guests painting together beside the pool" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/pool-beachfront.jpg' ); ?>" alt="Guests painting together beside the pool" loading="lazy">
             <div class="beyond-body">
               <span class="num">03 · Moments</span>
               <h3>Moments Made to Remember</h3>

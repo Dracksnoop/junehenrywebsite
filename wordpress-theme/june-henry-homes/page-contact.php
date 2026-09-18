@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/cottage-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">Contact</span></nav>
@@ -39,7 +39,7 @@ get_header(); ?>
             </div>
           </div>
           <a class="map-card map-link reveal" style="--d:.2s" href="https://www.google.com/maps/search/?api=1&amp;query=St.+Ann%2C+Jamaica" target="_blank" rel="noopener">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="" loading="lazy">
             <span class="map-label">
               <small>Find us</small>
               <strong>St. Ann, Jamaica</strong>

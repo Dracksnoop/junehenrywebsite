@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The chef serving guests at the table" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">Beyond the Stay</span></nav>
@@ -28,8 +28,8 @@ get_header(); ?>
       <div class="container split">
         <div class="split-media">
           <div class="media-stack">
-            <div class="media media-main reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
-            <div class="media media-small reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="Guests gathered around a table of Jamaican fruit" loading="lazy"></div>
+            <div class="media media-main reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
+            <div class="media media-small reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/courtyard-homes.jpg' ); ?>" alt="Guests gathered around a table of Jamaican fruit" loading="lazy"></div>
           </div>
         </div>
         <div class="split-body">
@@ -48,7 +48,7 @@ get_header(); ?>
     <section class="experience" id="wellness" aria-labelledby="wellness-title">
       <div class="container split reverse">
         <div class="split-media">
-          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/pool-terrace.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
         </div>
         <div class="split-body">
           <span class="eyebrow reveal">02 · Wellness</span>
@@ -72,19 +72,19 @@ get_header(); ?>
         </div>
         <div class="moments">
           <figure class="moment reveal" style="margin:0">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">
             <figcaption><span>Bonfire conversations</span></figcaption>
           </figure>
           <figure class="moment reveal" style="margin:0;--d:.08s">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="Guests painting together beside the pool" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/pool-beachfront.jpg' ); ?>" alt="Guests painting together beside the pool" loading="lazy">
             <figcaption><span>Sip &amp; Paint</span></figcaption>
           </figure>
           <figure class="moment reveal" style="margin:0;--d:.16s">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">
             <figcaption><span>Catamaran escapes</span></figcaption>
           </figure>
           <figure class="moment reveal" style="margin:0;--d:.24s">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/dunns-river-falls.jpg' ); ?>" alt="Dunn’s River Falls in St. Ann, Jamaica" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="Dunn’s River Falls in St. Ann, Jamaica" loading="lazy">
             <figcaption><span>Discovering Jamaica</span></figcaption>
           </figure>
         </div>
@@ -93,7 +93,7 @@ get_header(); ?>
     </section>
 
     <section class="quote-band has-image" aria-label="Experiences that bring people together">
-      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy"></div>
+      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/courtyard-homes.jpg' ); ?>" alt="" loading="lazy"></div>
       <span class="eyebrow center light reveal">Your season, your way</span>
       <blockquote class="reveal">Your days can be as active, peaceful, social, or private as you want them to <span class="script">be</span>.</blockquote>
       <div class="btn-row center reveal">

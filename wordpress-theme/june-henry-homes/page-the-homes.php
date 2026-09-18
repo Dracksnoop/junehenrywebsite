@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-entrance.jpg' ); ?>" alt="Entrance to a June Henry Homes residence" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-pathway.jpg' ); ?>" alt="Entrance to a June Henry Homes residence" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">The Homes</span></nav>
@@ -26,19 +26,19 @@ get_header(); ?>
         </div>
         <div class="collection-nav">
           <a class="collection-link reveal" href="#beachfront">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/living-pool-view.jpg' ); ?>" alt="Living room opening onto the pool and the sea" loading="lazy">" alt="" loading="lazy">
             <span class="count">Collection 01</span>
             <h3>The Beachfront Collection</h3>
             <span class="link-arrow">Wake up to the sea <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
           <a class="collection-link reveal" style="--d:.1s" href="#veranda">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/cottage-veranda.jpg' ); ?>" alt="A June Henry Homes cottage with its wraparound veranda" loading="lazy">" alt="" loading="lazy">
             <span class="count">Collection 02</span>
             <h3>The Veranda Collection</h3>
             <span class="link-arrow">Garden breezes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
           <a class="collection-link reveal" style="--d:.2s" href="#founder">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-twin.jpg' ); ?>" alt="Guest bedroom with beamed ceiling at June Henry Homes" loading="lazy">" alt="" loading="lazy">
             <span class="count">Collection 03</span>
             <h3>The Founder Collection</h3>
             <span class="link-arrow">Most personalized <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
@@ -80,9 +80,9 @@ get_header(); ?>
       <!-- Beachfront -->
       <section class="collection" id="beachfront" aria-labelledby="beachfront-title">
         <div class="gallery">
-          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/living-pool-view.jpg' ); ?>" alt="Living room opening onto the pool and the sea" loading="lazy">" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/gazebo-beach.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-cove.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
         </div>
         <div class="collection-body">
           <div>
@@ -107,9 +107,9 @@ get_header(); ?>
       <!-- Veranda -->
       <section class="collection" id="veranda" aria-labelledby="veranda-title">
         <div class="gallery">
-          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/cottage-veranda.jpg' ); ?>" alt="A June Henry Homes cottage with its wraparound veranda" loading="lazy">" alt="A June Henry Homes residence with its veranda and lawn" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/kitchen-wide.jpg' ); ?>" alt="The kitchen at a June Henry Homes residence" loading="lazy">" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dining-room.jpg' ); ?>" alt="The dining room set for a shared meal" loading="lazy">" alt="The chef serving guests at the table" loading="lazy"></div>
         </div>
         <div class="collection-body">
           <div>
@@ -134,9 +134,9 @@ get_header(); ?>
       <!-- Founder -->
       <section class="collection" id="founder" aria-labelledby="founder-title">
         <div class="gallery">
-          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="Bedroom with a sea view at June Henry Homes" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-twin.jpg' ); ?>" alt="Guest bedroom with beamed ceiling at June Henry Homes" loading="lazy">" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bathroom-suite.jpg' ); ?>" alt="Guest bathroom with a walk-in shower" loading="lazy">" alt="Bedroom with a sea view at June Henry Homes" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/butler-pantry.jpg' ); ?>" alt="The butler’s pantry at June Henry Homes" loading="lazy">" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
         </div>
         <div class="collection-body">
           <div>

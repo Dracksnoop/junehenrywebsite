@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/living-pool-view.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">FAQs</span></nav>

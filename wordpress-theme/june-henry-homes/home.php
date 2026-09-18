@@ -3,7 +3,7 @@
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="Guests gathered around a table of Jamaican fruit" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/courtyard-homes.jpg' ); ?>" alt="Guests gathered around a table of Jamaican fruit" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">&#10022;</span><span aria-current="page">JHH Journal</span></nav>

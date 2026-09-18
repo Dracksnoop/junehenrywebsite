@@ -16,7 +16,7 @@
   color: #fff; background: var(--navy-deep);
 }
 .hero-media { position: absolute; inset: 0; z-index: -2; overflow: hidden; }
-.is-loaded .hero-media { animation: heroZoom 2.8s var(--ease) both; }
+.is-loaded .hero-media:not([data-slides]) { animation: heroZoom 2.8s var(--ease) both; }
 .hero-media img { width: 100%; height: 120%; object-fit: cover; transform: translate3d(0, var(--py, 0px), 0); will-change: transform; }
 .hero::before {
   content: ""; position: absolute; inset: 0; z-index: -1;
@@ -375,3 +375,15 @@
 
 /* Hero headings use the script face without the curled capitals */
 .hero .script, .page-hero .script { font-family: var(--f-hero-script); }
+
+/* ---------- Hero slideshow: the frames cross-fade and drift ---------- */
+.hero-media[data-slides] img {
+  position: absolute; top: 0; left: 0; width: 100%; height: 120%; object-fit: cover;
+  opacity: 0; transform: translate3d(0, var(--py, 0px), 0) scale(1.08);
+  transition: opacity 1.8s var(--ease), transform 9s var(--ease);
+}
+.hero-media[data-slides] img.is-active { opacity: 1; transform: translate3d(0, var(--py, 0px), 0) scale(1); }
+.no-js .hero-media[data-slides] img.is-active { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-media[data-slides] img { transition: none; transform: none; }
+}
