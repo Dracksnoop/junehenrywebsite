@@ -27,7 +27,7 @@
     { key: 'home', label: 'Home', href: 'index.html' },
     { key: 'homes', label: 'Stay', href: 'homes.html' },
     { key: 'beyond', label: 'Experience', href: 'beyond.html' },
-    { key: 'journal', label: 'JHH Journal', href: 'journal.html' },
+    { key: 'journal', label: 'Journal', href: 'journal.html' },
     { key: 'faqs', label: 'FAQs', href: 'faqs.html' },
     { key: 'about', label: 'About', href: 'about.html' }
   ];
@@ -39,7 +39,7 @@
     { key: 'homes', label: 'The Homes', href: 'homes.html' },
     { key: 'beyond', label: 'Beyond the Stay', href: 'beyond.html' },
     { key: 'st-ann', label: 'St. Ann', href: 'st-ann.html' },
-    { key: 'journal', label: 'JHH Journal', href: 'journal.html' },
+    { key: 'journal', label: 'Journal', href: 'journal.html' },
     { key: 'faqs', label: 'FAQs', href: 'faqs.html' },
     { key: 'contact', label: 'Contact', href: 'contact.html' }
   ];
@@ -52,7 +52,7 @@
     { label: 'Wellness', href: 'beyond.html#wellness' },
     { label: 'Food', href: 'beyond.html#food' },
     { label: 'St. Ann', href: 'st-ann.html' },
-    { label: 'JHH Journal', href: 'journal.html' },
+    { label: 'Journal', href: 'journal.html' },
     { label: 'FAQs', href: 'faqs.html' },
     { label: 'Contact', href: 'contact.html' }
   ];
@@ -136,9 +136,9 @@
             '<li><a href="mailto:' + EMAIL + '">' + EMAIL + '</a></li>' +
           '</ul>' +
           '<div class="socials">' +
-            '<a href="#" aria-label="Instagram">' + icons.instagram + '</a>' +
-            '<a href="#" aria-label="Facebook">' + icons.facebook + '</a>' +
-            '<a href="#" aria-label="LinkedIn">' + icons.linkedin + '</a>' +
+            '<a href="https://www.instagram.com/junehenryhome/" target="_blank" rel="noopener" aria-label="Instagram">' + icons.instagram + '</a>' +
+            '<a href="https://www.facebook.com/juhehenryhomes/" target="_blank" rel="noopener" aria-label="Facebook">' + icons.facebook + '</a>' +
+            '<a href="https://www.linkedin.com/in/june-henry-singleton-940191416/" target="_blank" rel="noopener" aria-label="LinkedIn">' + icons.linkedin + '</a>' +
           '</div>' +
         '</div>' +
       '</div>' +
