@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2200&q=80" alt="Tropical residence with a private pool and lounge terrace" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-entrance.jpg' ); ?>" alt="Entrance to a June Henry Homes residence" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">The Homes</span></nav>
@@ -26,19 +26,19 @@ get_header(); ?>
         </div>
         <div class="collection-nav">
           <a class="collection-link reveal" href="#beachfront">
-            <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
             <span class="count">Collection 01</span>
             <h3>The Beachfront Collection</h3>
             <span class="link-arrow">Wake up to the sea <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
           <a class="collection-link reveal" style="--d:.1s" href="#veranda">
-            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="" loading="lazy">
             <span class="count">Collection 02</span>
             <h3>The Veranda Collection</h3>
             <span class="link-arrow">Garden breezes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
           <a class="collection-link reveal" style="--d:.2s" href="#founder">
-            <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="" loading="lazy">
             <span class="count">Collection 03</span>
             <h3>The Founder Collection</h3>
             <span class="link-arrow">Most personalized <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
@@ -80,9 +80,9 @@ get_header(); ?>
       <!-- Beachfront -->
       <section class="collection" id="beachfront" aria-labelledby="beachfront-title">
         <div class="gallery">
-          <div class="media reveal-mask"><img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1400&q=80" alt="Beach house on white sand beside calm turquoise water" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.15s"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80" alt="Palm tree on a sunny white-sand beach" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.3s"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Gentle waves at sunrise" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy"></div>
         </div>
         <div class="collection-body">
           <div>
@@ -107,9 +107,9 @@ get_header(); ?>
       <!-- Veranda -->
       <section class="collection" id="veranda" aria-labelledby="veranda-title">
         <div class="gallery">
-          <div class="media reveal-mask"><img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=80" alt="Pool surrounded by lush tropical gardens and green hills" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.15s"><img src="https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=800&q=80" alt="Lush tropical garden foliage" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.3s"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80" alt="Covered veranda dining area with sea views" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
         </div>
         <div class="collection-body">
           <div>
@@ -134,9 +134,9 @@ get_header(); ?>
       <!-- Founder -->
       <section class="collection" id="founder" aria-labelledby="founder-title">
         <div class="gallery">
-          <div class="media reveal-mask"><img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1400&q=80" alt="Private poolside cabanas glowing at dusk" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.15s"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" alt="Private suite with an elegant upholstered bed" loading="lazy"></div>
-          <div class="media reveal-mask" style="--d:.3s"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Warm suite with a sitting area and soft lamplight" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.15s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="Bedroom with a sea view at June Henry Homes" loading="lazy"></div>
+          <div class="media reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
         </div>
         <div class="collection-body">
           <div>

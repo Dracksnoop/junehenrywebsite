@@ -7,7 +7,7 @@
         <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail( 'full', array( 'fetchpriority' => 'high' ) );
         } else { ?>
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2200&q=80" alt="" fetchpriority="high">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" fetchpriority="high">
         <?php } ?>
       </div>
       <div class="page-hero-content">

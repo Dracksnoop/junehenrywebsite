@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="https://images.unsplash.com/photo-1470058869958-2a77ade41c02?auto=format&fit=crop&w=2200&q=80" alt="Lush tropical greenery" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/june-with-guest.jpg' ); ?>" alt="June Henry welcoming a guest at the home" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a><span aria-hidden="true">✦</span><span aria-current="page">Meet June</span></nav>
@@ -106,7 +106,7 @@ get_header(); ?>
     </section>
 
     <section class="quote-band has-image" aria-label="June's calling">
-      <div class="jamaica-bg" data-parallax="0.1"><img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=2000&q=75" alt="" loading="lazy"></div>
+      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy"></div>
       <span class="eyebrow center light reveal">More than hospitality</span>
       <blockquote class="reveal">A place where people can exhale, feel at home, and rediscover the simple joy of <span class="script">everyday living</span>.</blockquote>
       <div class="btn-row center reveal">

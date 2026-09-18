@@ -5,7 +5,7 @@
     <!-- ============ 1. HERO ============ -->
     <section class="hero" aria-label="Welcome to June Henry Homes">
       <div class="hero-media" data-parallax="0.12">
-        <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=2200&q=80" alt="Sunlit wooden terrace and pool overlooking the Caribbean Sea" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/homes-lawn.jpg' ); ?>" alt="June Henry Homes residences seen from the garden" fetchpriority="high">
       </div>
       <div class="hero-content">
         <span class="eyebrow center light hero-anim" style="--d:.2s">Extended Luxury Living &amp; Wellness</span>
@@ -35,35 +35,35 @@
       <div class="ribbon-track" data-ribbon>
         <div class="ribbon-group">
           <span class="ribbon-word">Chef-prepared meals</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Dedicated butler</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">Housekeeping &amp; laundry</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Personal concierge</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">6–8 guests per home</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Stays of one month or longer</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">St. Ann, Jamaica</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dunns-river-falls.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
         </div>
         <div class="ribbon-group">
           <span class="ribbon-word">Chef-prepared meals</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Dedicated butler</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">Housekeeping &amp; laundry</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Personal concierge</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">6–8 guests per home</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word is-outline">Stays of one month or longer</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
           <span class="ribbon-word">St. Ann, Jamaica</span>
-          <span class="ribbon-pill"><img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=360&h=200&q=70" alt="" loading="lazy" decoding="async"></span>
+          <span class="ribbon-pill"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/dunns-river-falls.jpg' ); ?>" alt="" loading="lazy" decoding="async"></span>
         </div>
       </div>
     </div>
@@ -106,7 +106,7 @@
                 <h3>Elevated winter living where luxury meets the comfort of home!</h3>
                 <p>June Henry Homes is designed for active adults who desire extended stays of one month or longer, the ease of elevated hospitality, wellness, lifestyle services and light support during the winter season in a warm climate environment that promotes vitality, rest and connection. Whether you’re seeking a seasonal retreat, a respite from home maintenance, or simply a more effortless way to enjoy the winter months, June Henry Homes provides exceptional hospitality, comfort, and care allowing you to focus on what matters most. Our homes are fully staffed and offers the comfort of home paired with the personalized service of a luxury retreat.</p>
               </div>
-              <div class="media"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80" alt="Tropical residence with a private pool and shaded lounge terrace" loading="lazy"></div>
+              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-entrance.jpg' ); ?>" alt="Entrance to a June Henry Homes residence" loading="lazy"></div>
             </div>
           </div>
 
@@ -122,7 +122,7 @@
                   <li>A secure, private environment where you can relax with complete peace of mind.</li>
                 </ul>
               </div>
-              <div class="media"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80" alt="Open-air dining terrace set for lunch overlooking the sea" loading="lazy"></div>
+              <div class="media"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
             </div>
           </div>
         </div>
@@ -152,7 +152,7 @@
           </article>
 
           <div class="bento-media reveal" style="--d:.08s">
-            <img src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1000&q=80" alt="Bright living room opening onto a terrace and the sea" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/bedroom-seaview.jpg' ); ?>" alt="Bedroom with a sea view at June Henry Homes" loading="lazy">
             <span class="chip">Private residential living</span>
           </div>
 
@@ -189,7 +189,7 @@
           </article>
 
           <div class="bento-media span-2 reveal">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80" alt="Soft sunrise over a quiet Caribbean shoreline" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">
             <span class="chip">Your winter, your way</span>
           </div>
 
@@ -213,7 +213,7 @@
     <!-- ============ 5. WHY JAMAICA ============ -->
     <section class="jamaica" id="why-jamaica" aria-labelledby="jamaica-title">
       <div class="jamaica-bg" data-parallax="0.1">
-        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=2000&q=75" alt="" loading="lazy">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
       </div>
       <div class="container jamaica-grid">
         <div>
@@ -254,7 +254,7 @@
         <div class="stack">
           <article class="stack-card" style="--i:0">
             <div class="stack-media">
-              <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1400&q=80" alt="Beach house on white sand beside calm turquoise water" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">
               <span class="chip">Collection 01</span>
             </div>
             <div class="stack-body">
@@ -270,7 +270,7 @@
 
           <article class="stack-card is-navy" style="--i:1">
             <div class="stack-media">
-              <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=80" alt="Pool surrounded by lush tropical gardens and green hills" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" loading="lazy">
               <span class="chip">Collection 02</span>
             </div>
             <div class="stack-body">
@@ -286,7 +286,7 @@
 
           <article class="stack-card is-burgundy" style="--i:2">
             <div class="stack-media">
-              <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1400&q=80" alt="Private poolside cabanas glowing at dusk" loading="lazy">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy">
               <span class="chip">Collection 03</span>
             </div>
             <div class="stack-body">
@@ -314,7 +314,7 @@
 
         <div class="beyond-grid">
           <article class="beyond-card reveal">
-            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80" alt="Chef-prepared plate served at a candlelit dinner table" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/market-produce.jpg' ); ?>" alt="Fresh produce at a Jamaican market" loading="lazy">
             <div class="beyond-body">
               <span class="num">01 · Food</span>
               <h3>Taste the Good Life</h3>
@@ -325,7 +325,7 @@
           </article>
 
           <article class="beyond-card reveal" style="--d:.12s">
-            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1000&q=80" alt="Guest stretching at sunrise by the water" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy">
             <div class="beyond-body">
               <span class="num">02 · Wellness</span>
               <h3>Wellness, Your Way</h3>
@@ -336,7 +336,7 @@
           </article>
 
           <article class="beyond-card reveal" style="--d:.24s">
-            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1000&q=80" alt="Long table set with flowers and glassware for a shared dinner" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="Guests painting together beside the pool" loading="lazy">
             <div class="beyond-body">
               <span class="num">03 · Moments</span>
               <h3>Moments Made to Remember</h3>

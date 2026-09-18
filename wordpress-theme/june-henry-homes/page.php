@@ -7,7 +7,7 @@
         <?php if ( has_post_thumbnail() ) {
             the_post_thumbnail( 'full' );
         } else { ?>
-            <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=2200&q=80" alt="">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="">
         <?php } ?>
       </div>
       <div class="page-hero-content">

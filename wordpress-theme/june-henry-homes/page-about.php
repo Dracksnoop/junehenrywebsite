@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=2200&q=80" alt="Pool terrace framed by palms overlooking the sea" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/homes-lawn.jpg' ); ?>" alt="June Henry Homes residences seen from the garden" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">About</span></nav>
@@ -21,8 +21,8 @@ get_header(); ?>
       <div class="container split">
         <div class="split-media">
           <div class="media-stack">
-            <div class="media media-main reveal-mask"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=80" alt="Bright, comfortable living room filled with natural light" loading="lazy"></div>
-            <div class="media media-small reveal-mask" style="--d:.3s"><img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=700&q=80" alt="Breakfast table with fresh fruit, waffles and juice" loading="lazy"></div>
+            <div class="media media-main reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/interior-living.jpg' ); ?>" alt="Open living room inside a June Henry Homes residence" loading="lazy"></div>
+            <div class="media media-small reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="Guests gathered around a table of Jamaican fruit" loading="lazy"></div>
             <div class="rotating-badge" aria-hidden="true">
               <svg viewBox="0 0 136 136"><defs><path id="badgeCircle" d="M68,68 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"/></defs><text><textPath href="#badgeCircle" textLength="312" lengthAdjust="spacing">Extended Luxury Living · Jamaica ·</textPath></text></svg>
               <span class="badge-core">JH</span>
@@ -83,7 +83,7 @@ get_header(); ?>
     <section class="section" style="padding-top:0">
       <div class="container split reverse">
         <div class="split-media">
-          <div class="media reveal-mask"><img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1100&q=80" alt="Chef carefully plating a freshly prepared dish" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
         </div>
         <div class="split-body">
           <span class="eyebrow reveal">Everything taken care of</span>
@@ -145,7 +145,7 @@ get_header(); ?>
 
     <!-- Promise -->
     <section class="quote-band has-image" aria-label="Our promise">
-      <div class="jamaica-bg" data-parallax="0.1"><img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=2000&q=75" alt="" loading="lazy"></div>
+      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="" loading="lazy"></div>
       <span class="eyebrow center light reveal">Welcome to June Henry Homes</span>
       <blockquote class="reveal">A place where comfort meets connection, luxury feels personal, and every guest is welcomed like <span class="script">family</span>.</blockquote>
       <div class="btn-row center reveal">
@@ -168,13 +168,13 @@ get_header(); ?>
             <span class="link-arrow">Read June’s story <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
           <a class="collection-link reveal" style="--d:.1s" href="<?php echo esc_url( home_url( '/beyond-the-stay/' ) ); ?>">
-            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy">
             <span class="count">Life here</span>
             <h3>Beyond the Stay</h3>
             <span class="link-arrow">See the experience <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
           </a>
           <a class="collection-link reveal" style="--d:.2s" href="<?php echo esc_url( home_url( '/the-homes/' ) ); ?>">
-            <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
             <span class="count">The homes</span>
             <h3>Explore the Collections</h3>
             <span class="link-arrow">View the homes <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>

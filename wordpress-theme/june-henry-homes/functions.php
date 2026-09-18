@@ -22,7 +22,7 @@ function jhh_assets() {
 
     wp_enqueue_style(
         'jhh-fonts',
-        'https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap',
+        'https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Pinyon+Script&family=Pinyon+Script&family=Ephesis&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap',
         array(),
         null
     );

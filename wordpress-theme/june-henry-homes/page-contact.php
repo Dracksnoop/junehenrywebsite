@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=2200&q=80" alt="Palm tree on a bright white-sand beach" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/home-veranda.jpg' ); ?>" alt="A June Henry Homes residence with its veranda and lawn" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">Contact</span></nav>
@@ -39,7 +39,7 @@ get_header(); ?>
             </div>
           </div>
           <a class="map-card map-link reveal" style="--d:.2s" href="https://www.google.com/maps/search/?api=1&amp;query=St.+Ann%2C+Jamaica" target="_blank" rel="noopener">
-            <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&amp;fit=crop&amp;w=900&amp;q=75" alt="" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="" loading="lazy">
             <span class="map-label">
               <small>Find us</small>
               <strong>St. Ann, Jamaica</strong>
@@ -75,8 +75,9 @@ get_header(); ?>
                 <span class="field-error">Please enter a valid email address.</span>
               </div>
               <div class="field">
-                <label for="f-phone">Phone</label>
-                <input id="f-phone" name="phone" type="tel" autocomplete="tel">
+                <label for="f-phone">Phone *</label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" required>
+                <span class="field-error">Please enter a telephone number.</span>
               </div>
               <div class="field">
                 <label for="f-guest">Guest’s name, if different</label>
@@ -92,18 +93,20 @@ get_header(); ?>
                 </select>
               </div>
               <div class="field">
-                <label for="f-length">Length of stay</label>
-                <select id="f-length" name="length">
-                  <option value="">Not sure yet</option>
+                <label for="f-length">Length of stay *</label>
+                <select id="f-length" name="length" required>
+                  <option value="">Please select</option>
                   <option>1 month</option>
                   <option>2 months</option>
                   <option>3 months</option>
                   <option>The whole winter season</option>
                 </select>
+                <span class="field-error">Please choose a length of stay.</span>
               </div>
               <div class="field">
-                <label for="f-arrival">Preferred arrival month</label>
-                <input id="f-arrival" name="arrival" type="month">
+                <label for="f-arrival">Preferred arrival date *</label>
+                <input id="f-arrival" name="arrival" type="date" required>
+                <span class="field-error">Please choose a preferred arrival date.</span>
               </div>
               <div class="field">
                 <label for="f-guests">Guests in your party</label>

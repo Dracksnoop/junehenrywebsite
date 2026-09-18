@@ -7,7 +7,7 @@ get_header(); ?>
 <main id="main">
     <section class="page-hero">
       <div class="hero-media" data-parallax="0.12">
-        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=2200&q=80" alt="Open-air dining terrace set beside the sea" fetchpriority="high">
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" fetchpriority="high">
       </div>
       <div class="page-hero-content">
         <nav class="breadcrumb hero-anim" aria-label="Breadcrumb"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a><span aria-hidden="true">✦</span><span aria-current="page">Beyond the Stay</span></nav>
@@ -28,8 +28,8 @@ get_header(); ?>
       <div class="container split">
         <div class="split-media">
           <div class="media-stack">
-            <div class="media media-main reveal-mask"><img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1100&q=80" alt="Bowl of seafood stew with rice and fresh herbs" loading="lazy"></div>
-            <div class="media media-small reveal-mask" style="--d:.3s"><img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=700&q=80" alt="Breakfast spread with fruit, waffles and juice" loading="lazy"></div>
+            <div class="media media-main reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/chef-dining.jpg' ); ?>" alt="The chef serving guests at the table" loading="lazy"></div>
+            <div class="media media-small reveal-mask" style="--d:.3s"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="Guests gathered around a table of Jamaican fruit" loading="lazy"></div>
           </div>
         </div>
         <div class="split-body">
@@ -48,7 +48,7 @@ get_header(); ?>
     <section class="experience" id="wellness" aria-labelledby="wellness-title">
       <div class="container split reverse">
         <div class="split-media">
-          <div class="media reveal-mask"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1100&q=80" alt="Guest meditating quietly in soft morning light" loading="lazy"></div>
+          <div class="media reveal-mask"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/river-swimming.jpg' ); ?>" alt="Guests swimming in a river pool in Jamaica" loading="lazy"></div>
         </div>
         <div class="split-body">
           <span class="eyebrow reveal">02 · Wellness</span>
@@ -72,19 +72,19 @@ get_header(); ?>
         </div>
         <div class="moments">
           <figure class="moment reveal" style="margin:0">
-            <img src="https://images.unsplash.com/photo-1475483768296-6163e08872a1?auto=format&fit=crop&w=700&q=80" alt="Friends gathered around an evening bonfire" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-sunset.jpg' ); ?>" alt="Sunset over the beach in St. Ann, Jamaica" loading="lazy">
             <figcaption><span>Bonfire conversations</span></figcaption>
           </figure>
           <figure class="moment reveal" style="margin:0;--d:.08s">
-            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" alt="Paintbrushes and bright colours on a canvas" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/guests-painting.jpg' ); ?>" alt="Guests painting together beside the pool" loading="lazy">
             <figcaption><span>Sip &amp; Paint</span></figcaption>
           </figure>
           <figure class="moment reveal" style="margin:0;--d:.16s">
-            <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=700&q=80" alt="Boats on clear turquoise water beside a beach" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/beach-gazebo.jpg' ); ?>" alt="Beachfront gazebo overlooking the sea in St. Ann" loading="lazy">
             <figcaption><span>Catamaran escapes</span></figcaption>
           </figure>
           <figure class="moment reveal" style="margin:0;--d:.24s">
-            <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=700&q=80" alt="Waterfall cascading through lush green forest" loading="lazy">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/images/dunns-river-falls.jpg' ); ?>" alt="Dunn’s River Falls in St. Ann, Jamaica" loading="lazy">
             <figcaption><span>Discovering Jamaica</span></figcaption>
           </figure>
         </div>
@@ -93,7 +93,7 @@ get_header(); ?>
     </section>
 
     <section class="quote-band has-image" aria-label="Experiences that bring people together">
-      <div class="jamaica-bg" data-parallax="0.1"><img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=2000&q=75" alt="" loading="lazy"></div>
+      <div class="jamaica-bg" data-parallax="0.1"><img src="<?php echo esc_url( get_template_directory_uri() . '/images/fruit-event.jpg' ); ?>" alt="" loading="lazy"></div>
       <span class="eyebrow center light reveal">Your season, your way</span>
       <blockquote class="reveal">Your days can be as active, peaceful, social, or private as you want them to <span class="script">be</span>.</blockquote>
       <div class="btn-row center reveal">
